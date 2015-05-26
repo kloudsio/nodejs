@@ -24,6 +24,9 @@ RUN \
 
 # Define working directory.
 WORKDIR /data
+npm install -g nodebb
+npm start nodebb
+
 
 # Define default command.
 CMD ["bash"]
